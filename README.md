@@ -25,7 +25,7 @@ track 1 interface Ethernet1/54 line-protocol
 
 event manager applet INT_UP_HEALTH_CHECK
   event track 1 state up
-  action 1.0 cli source interface_bring_up_health_check.py 
+  action 1.0 cli source interface_health_check.py 
 ```
 
 Script is based on Python3.\
